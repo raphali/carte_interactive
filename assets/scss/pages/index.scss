@@ -1,0 +1,315 @@
+@use "../abstacts" as *;
+
+.leaflet-interactive {
+    stroke: none;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+
+    @include mobile {
+        width: 100vw;
+    }
+
+    &__menuburger {
+        width: 25vw;
+        height: 100vh;
+        background-color: $black-background;
+        display: none;
+        z-index: 1;
+        position: absolute;
+        justify-self: end;
+        overflow-x: hidden;
+
+        @include mobile {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            align-self: end;
+            overflow-y:scroll;
+        }
+
+        @include mobilePaysage {
+            width: 35vw;
+        }
+
+        &__topmenu{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: end;
+            align-items: start;
+
+            &__gradientspan {
+                position: relative;
+                display: inline-block;
+                margin-right: 10px;
+
+                @include mobilePaysage {
+                    margin-right: 0px;
+                    width: 100%;
+                }
+                
+                #flag {
+                    width: 25vw;
+                    display: block;
+
+                    @include mobile {
+                        width: 100vw;
+                    }
+
+                    @include mobilePaysage {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &__gradientspan::after{
+                content: '';
+                position: absolute;
+                top: 0; left: 0; right: 0; bottom: 0;
+                background: linear-gradient(to top, $black-background 10% , transparent );
+            }
+
+            &__closebtn{
+                padding: .75rem .75rem;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                width: 1rem;
+                height: 1rem;
+                color: white;
+                position: absolute;
+                background-color: $black-background;
+                border-radius: 10rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &__content {
+            height: 62vh;
+            color: white;
+            z-index: 1000;
+
+            @include mobilePaysage {
+                height: 40vh;
+            }
+
+            &__title {
+                padding: 1vw;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                font-weight: bold;
+
+                @include mobile {
+                    width: 90vw;
+                    margin-left: 1rem;
+                }
+
+                @include mobilePaysage {
+                    padding-top: 0rem;
+                    margin-left: 1rem;
+                }
+            }
+
+            &__cardcontainer {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: auto;
+                padding: 3vh 1.7vw;
+                padding-bottom: 5rem;
+                gap: 2.5rem;
+
+                @include mobilePaysage {
+                    width: 10vw;
+                    align-items: start;
+                }
+                
+                &__card {
+                    background-color: $black-background;
+                    border: solid 1px;
+                    border-color: #26282E;
+                    width: 100%;
+                    padding: 1.25rem .75rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 1rem;
+                    height: auto;
+
+                    @include mobile {
+                        width: 82vw;
+                        padding: 1.25rem 1rem;
+                        margin-right: 0.8rem;
+                    }
+
+                    @include mobilePaysage {
+                        width: 29vw;
+                        font-size: 16px;
+                    }
+
+                    &__firstline {
+                        display: flex;
+                        justify-content: space-between;
+
+                        &__time {
+                            background-color: #1B2440;
+                            color: #7FA0F0;
+                            padding: .25rem .5rem;
+                            display: flex;
+                            align-items: center;
+                            border-radius: 1rem;
+
+                            @include mobilePaysage {
+                                width: 3.2rem;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    &__secondline {
+                        display: grid;
+                        justify-self: end;
+                        align-items: end;
+                    }
+                }
+            }
+
+            
+            &__politiscorecontainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 15%;
+                position: absolute;
+                bottom: 1rem;
+
+                @include mobile {
+                    height: 15%;
+                }
+
+                @include mobilePaysage {
+                    bottom: -20rem;
+                    width: 100%;
+                    height: 40%;
+                }
+
+                &__span {
+                    display: flex;
+                    border: solid 1px #26282E;
+                    width: 25vw;
+
+                    @include mobile {
+                        width: 100vw;
+                    }
+
+                    @include mobilePaysage {
+                        width: 100%;
+                    }
+                }
+
+                &__title{
+                    display: flex;
+                    width: 23vw;
+                    margin-left: 1vw;
+                    justify-content: space-between;
+                    margin-right: 1vw;
+                    color: grey;
+
+                    @include mobile {
+                        width: 90vw;
+                        margin-left: 5vw;
+                        margin-bottom: 1rem;
+                    }
+
+                    @include mobilePaysage {
+                        width: 90%;
+                        margin-left: 5%;
+                        font-size: 85%;
+                    }
+
+                    #camp-politique{
+                        color: white;
+                    }
+                }
+
+                &__echelle {
+                    width: 23vw;
+                    margin-left: 1vw;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 1rem;
+                    align-items: end;
+
+                    @include mobile {
+                        margin-left: 5vw;
+                        width: 90vw;
+                    }
+
+                    @include mobilePaysage {
+                        width: 90%;
+                        margin-left: 5%;
+                    }
+
+                    &__echellon {
+                        border: solid 4px;
+                        width: 15%;
+                        height: 0rem;
+                        border-radius: 1rem;
+                    }
+
+                    #EG {
+                        color: red;
+                    }
+
+                    #G {
+                        color: #e668e8;
+                    }
+
+                    #C {
+                        color: yellow;
+                    }
+
+                    #D {
+                        color: rgb(66, 151, 248);
+                    }
+
+                    #ED {
+                        color: blue;
+                    }
+                }
+
+                &__legende {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 23vw;
+                    margin-left: 1vw;
+
+                    @include mobile {
+                        width: 90vw;
+                        margin-left: 5vw;
+                    }
+
+                    @include mobilePaysage {
+                        width: 90%;
+                        margin-left: 5%;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    position: absolute;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pages/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+    <link rel="icon" href="assets/img/favicon.png">
+    <title>Carte politique</title>
+</head>
+<body>
+    <div id="map">
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
+        <script>
+            var map = L.map('map').setView([53.1814, 22.1644], 4.5);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+        </script>
+        <script></script>
+    </div>
+    <div class="container">
+        <div id="menu-burger" class="container__menuburger">
+            <div class="container__menuburger__topmenu">
+                <span class="container__menuburger__topmenu__gradientspan">
+                    <img src="" alt="" id="flag">
+                </span>
+                <div class="container__menuburger__topmenu__closebtn" id="closebtn">
+                    <p>✕</p>
+                    <script src="assets/js/burger.js"></script>
+                </div>
+            </div>
+            <div class="container__menuburger__content nomPays" >
+                <h1 class="container__menuburger__content__title"></h1>
+                <div class="container__menuburger__content__cardcontainer">
+                    <div class="container__menuburger__content__cardcontainer__card">
+                        <div class="container__menuburger__content__cardcontainer__card__firstline">
+                            <h2>Pouvoir exécutif</h2>
+                            <div class="container__menuburger__content__cardcontainer__card__firstline__time">
+                                <p id="executif-time"></p>
+                            </div>
+                        </div>
+                        <div class="container__menuburger__content__cardcontainer__card__secondline">
+                            <p id="executif"></p>
+                        </div>
+                    </div>
+                    <div class="container__menuburger__content__cardcontainer__card">
+                        <div class="container__menuburger__content__cardcontainer__card__firstline">
+                            <h2>Pouvoir législatif</h2>
+                            <div class="container__menuburger__content__cardcontainer__card__firstline__time">
+                                <p id="legislatif-time"></p>
+                            </div>
+                        </div>
+                        <div class="container__menuburger__content__cardcontainer__card__secondline">
+                            <p id="legislatif"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__menuburger__content__politiscorecontainer">
+                    <span class="container__menuburger__content__politiscorecontainer__span"></span>
+                    <div class="container__menuburger__content__politiscorecontainer__title">
+                        <h3>Orientation politique</h3>
+                        <h3 id="camp-politique"></h3>
+                    </div>
+                    <div class="container__menuburger__content__politiscorecontainer__echelle">
+                        <span class="container__menuburger__content__politiscorecontainer__echelle__echellon" id="EG"></span>
+                        <span class="container__menuburger__content__politiscorecontainer__echelle__echellon" id="G"></span>
+                        <span class="container__menuburger__content__politiscorecontainer__echelle__echellon" id="C"></span>
+                        <span class="container__menuburger__content__politiscorecontainer__echelle__echellon" id="D"></span>
+                        <span class="container__menuburger__content__politiscorecontainer__echelle__echellon" id="ED"></span>
+                    </div>
+                    <div class="container__menuburger__content__politiscorecontainer__legende">
+                        <p class="container__menuburger__content__politiscorecontainer__legende__texte">Gauche</p>
+                        <p class="container__menuburger__content__politiscorecontainer__legende__texte">Droite</p>
+                    </div>
+                </div>
+            </div>
+            <script src="assets/js/appelJSON.js"></script>
+        </div>
+    </div>
+
+</body>
+</html>

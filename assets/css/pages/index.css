@@ -1,0 +1,314 @@
+.leaflet-interactive {
+  stroke: none;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container {
+    width: 100vw;
+  }
+}
+.container__menuburger {
+  width: 25vw;
+  height: 100vh;
+  background-color: #121316;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  justify-self: end;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    align-self: end;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger {
+    width: 35vw;
+  }
+}
+.container__menuburger__topmenu {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.container__menuburger__topmenu__gradientspan {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__topmenu__gradientspan {
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+.container__menuburger__topmenu__gradientspan #flag {
+  width: 25vw;
+  display: block;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__topmenu__gradientspan #flag {
+    width: 100vw;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__topmenu__gradientspan #flag {
+    width: 100%;
+  }
+}
+.container__menuburger__topmenu__gradientspan::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, #121316 10%, transparent);
+}
+.container__menuburger__topmenu__closebtn {
+  padding: 0.75rem 0.75rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  color: white;
+  position: absolute;
+  background-color: #121316;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__menuburger__content {
+  height: 62vh;
+  color: white;
+  z-index: 1000;
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content {
+    height: 40vh;
+  }
+}
+.container__menuburger__content__title {
+  padding: 1vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__title {
+    width: 90vw;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__title {
+    padding-top: 0rem;
+    margin-left: 1rem;
+  }
+}
+.container__menuburger__content__cardcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 3vh 1.7vw;
+  padding-bottom: 5rem;
+  gap: 2.5rem;
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__cardcontainer {
+    width: 10vw;
+    align-items: start;
+  }
+}
+.container__menuburger__content__cardcontainer__card {
+  background-color: #121316;
+  border: solid 1px;
+  border-color: #26282E;
+  width: 100%;
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  height: auto;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__cardcontainer__card {
+    width: 82vw;
+    padding: 1.25rem 1rem;
+    margin-right: 0.8rem;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__cardcontainer__card {
+    width: 29vw;
+    font-size: 16px;
+  }
+}
+.container__menuburger__content__cardcontainer__card__firstline {
+  display: flex;
+  justify-content: space-between;
+}
+.container__menuburger__content__cardcontainer__card__firstline__time {
+  background-color: #1B2440;
+  color: #7FA0F0;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__cardcontainer__card__firstline__time {
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+.container__menuburger__content__cardcontainer__card__secondline {
+  display: grid;
+  justify-self: end;
+  align-items: end;
+}
+.container__menuburger__content__politiscorecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15%;
+  position: absolute;
+  bottom: 1rem;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__politiscorecontainer {
+    height: 15%;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__politiscorecontainer {
+    bottom: -20rem;
+    width: 100%;
+    height: 40%;
+  }
+}
+.container__menuburger__content__politiscorecontainer__span {
+  display: flex;
+  border: solid 1px #26282E;
+  width: 25vw;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__politiscorecontainer__span {
+    width: 100vw;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__politiscorecontainer__span {
+    width: 100%;
+  }
+}
+.container__menuburger__content__politiscorecontainer__title {
+  display: flex;
+  width: 23vw;
+  margin-left: 1vw;
+  justify-content: space-between;
+  margin-right: 1vw;
+  color: grey;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__politiscorecontainer__title {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__politiscorecontainer__title {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 85%;
+  }
+}
+.container__menuburger__content__politiscorecontainer__title #camp-politique {
+  color: white;
+}
+.container__menuburger__content__politiscorecontainer__echelle {
+  width: 23vw;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: space-between;
+  height: 1rem;
+  align-items: end;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__politiscorecontainer__echelle {
+    margin-left: 5vw;
+    width: 90vw;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__politiscorecontainer__echelle {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+.container__menuburger__content__politiscorecontainer__echelle__echellon {
+  border: solid 4px;
+  width: 15%;
+  height: 0rem;
+  border-radius: 1rem;
+}
+.container__menuburger__content__politiscorecontainer__echelle #EG {
+  color: red;
+}
+.container__menuburger__content__politiscorecontainer__echelle #G {
+  color: #e668e8;
+}
+.container__menuburger__content__politiscorecontainer__echelle #C {
+  color: yellow;
+}
+.container__menuburger__content__politiscorecontainer__echelle #D {
+  color: rgb(66, 151, 248);
+}
+.container__menuburger__content__politiscorecontainer__echelle #ED {
+  color: blue;
+}
+.container__menuburger__content__politiscorecontainer__legende {
+  display: flex;
+  justify-content: space-between;
+  width: 23vw;
+  margin-left: 1vw;
+}
+@media screen and (max-width: 1024px) and (min-height: 760px) {
+  .container__menuburger__content__politiscorecontainer__legende {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}
+@media screen and (max-height: 835px) {
+  .container__menuburger__content__politiscorecontainer__legende {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+  }
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.css.map */

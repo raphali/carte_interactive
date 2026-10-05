@@ -1,0 +1,492 @@
+{
+    "Andorra": {
+        "name": "Andorre",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_andorre.svg"
+    },
+    "Albania": {
+        "name": "Albanie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_albanie.svg"
+    },
+    "Armenia": {
+        "name": "Armenie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_armenie.svg"
+    },
+    "Austria": {
+        "name": "Autriche",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "6 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_autriche.svg"
+    },
+    "Azerbaijan": {
+        "name": "Azerbaidjan",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "7 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_azerbaidjan.svg"
+    },
+    "Belarus": {
+        "name": "Bielorussie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_belarus.svg"
+    },
+    "Belgium": {
+        "name": "Belgique",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_belgique.svg"
+    },
+    "Bosnia_And_Herzegovina": {
+        "name": "Bosnie-Herzegovine",
+        "executif": "Une présidence de trois membres élus par le peuple",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_bosnie_herzegovine.svg"
+    },
+    "Bulgaria": {
+        "name": "Bulgarie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche" ,
+        "drapeau": "assets/img/drapeau/drapeau_bulgarie.svg"
+    },
+    "Croatia": {
+        "name": "Croatie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_croatie.svg"
+    },
+    "Cyprus": {
+        "name": "Chypre",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_chypre.svg"
+    },
+    "Czech": {
+        "name": "Tchéquie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_tchequie.svg"
+    },
+    "Denmark": {
+        "name": "Danemark",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_danemark.svg"
+    },
+    "Estonia": {
+        "name": "Estonie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_estonie.svg"
+    },
+    "Finland": {
+        "name": "Finlande",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "6 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_finlande.svg"
+    },
+    "France": {
+        "name": "France",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_france.svg"
+    },
+    "Georgia": {
+        "name": "Georgie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_georgie.svg"
+    },
+    "Germany": {
+        "name": "Allemagne",
+        "executif": "Un chancelier choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_allemagne.svg"
+    },
+    "Greece": {
+        "name": "Grece",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_grece.svg"
+    },
+    "Hungary": {
+        "name": "Hongrie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_hongrie.svg"
+    },
+    "Iceland": {
+        "name": "Islande",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_islande.svg"
+    },
+    "Ireland": {
+        "name": "Irlande",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_irlande.svg"
+    },
+    "Italy": {
+        "name": "Italie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_italie.svg"
+    },
+    "Latvia": {
+        "name": "Lettonie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_lettonie.svg"
+    },
+    "Liechtenstein": {
+        "name": "Liechtenstein",
+        "executif": "Un prince héréditaire",
+        "executif_duree": "À vie",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_liechtenstein.svg"
+    },
+    "Lithuania": {
+        "name": "Lituanie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_lituanie.svg"
+    },
+    "Luxembourg": {
+        "name": "Luxembourg",
+        "executif": "Un grand-duc héréditaire",
+        "executif_duree": "À vie",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_luxembourg.svg"
+    },
+    "Malta": {
+        "name": "Malte",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_malte.svg"
+    },
+    "Moldova": {
+        "name": "Moldavie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_moldavie.svg"
+    },
+    "Monaco": {
+        "name": "Monaco",
+        "executif": "Un prince héréditaire",
+        "executif_duree": "À vie",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_monaco.svg"
+    },
+    "Montenegro": {
+        "name": "Montenegro",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_montenegro.svg"
+    },
+    "Netherlands": {
+        "name": "Pays-Bas",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_pays_bas.svg"
+    },
+    "North_Macedonia": {
+        "name": "Macedoine du Nord",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_macedoine.svg"
+    },
+    "Norway": {
+        "name": "Norvege",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_norvege.svg"
+    },
+    "Poland": {
+        "name": "Pologne",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_pologne.svg"
+    },
+    "Portugal": {
+        "name": "Portugal",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_portugal.svg"
+    },
+    "Romania": {
+        "name": "Roumanie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_roumanie.svg"
+    },
+    "Russia": {
+        "name": "Russie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "6 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_russie.svg"
+    },
+    "San_Marino": {
+        "name": "Saint-Marin",
+        "executif": "Deux capitaines-régents choisis par le parlement",
+        "executif_duree": "6 mois",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_saint_marin.svg"
+    },
+    "Serbia": {
+        "name": "Serbie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_serbie.svg"
+    },
+    "Slovakia": {
+        "name": "Slovaquie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_slovaquie.svg"
+    },
+    "Slovenia": {
+        "name": "Slovénie",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_slovenie.svg"
+    },
+    "Spain": {
+        "name": "Espagne",
+        "executif": "Un chef du gouvernement choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_espagne.svg"
+    },
+    "Sweden": {
+        "name": "Suéde",
+        "executif": "Un Premier ministre choisi par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_suede.svg"
+    },
+    "Switzerland": {
+        "name": "Suisse",
+        "executif": "Un gouvernement de sept membres choisis par le parlement",
+        "executif_duree": "4 ans",
+        "legislatif": "Deux chambres élues par le peuple",
+        "legislatif_duree": "4 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_suisse.svg"
+    },
+    "Turkey": {
+        "name": "Turquie",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "4",
+        "camp_politique": "Extrême droite",
+        "drapeau": "assets/img/drapeau/drapeau_turquie.svg"
+    },
+    "Ukraine": {
+        "name": "Ukraine",
+        "executif": "Un président élu par le peuple",
+        "executif_duree": "5 ans",
+        "legislatif": "Une assemblée élue par le peuple",
+        "legislatif_duree": "5 ans",
+        "score_politique": "2",
+        "camp_politique": "Centre",
+        "drapeau": "assets/img/drapeau/drapeau_ukraine.svg"
+    },
+    "United_Kingdom": {
+        "name": "Royaume-Uni",
+        "executif": "Un Premier ministre issu du parti majoritaire",
+        "executif_duree": "5 ans max",
+        "legislatif": "Une chambre élue par le peuple et une chambre non élue",
+        "legislatif_duree": "5 ans max",
+        "score_politique": "1",
+        "camp_politique": "Gauche",
+        "drapeau": "assets/img/drapeau/drapeau_royaume_uni.svg"
+    },
+    "Vatican": {
+        "name": "Vatican",
+        "executif": "Un pape choisi par les cardinaux",
+        "executif_duree": "À vie",
+        "legislatif": "Une commission nommée par le pape",
+        "legislatif_duree": "5 ans",
+        "score_politique": "3",
+        "camp_politique": "Droite",
+        "drapeau": "assets/img/drapeau/drapeau_vatican.svg"
+    }
+}
