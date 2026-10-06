@@ -5,7 +5,7 @@
 }
 
 @mixin mobilePaysage {
-  @media screen and (max-height: 835px) {
+  @media screen and (max-height: 414px) {
     @content;
   }
 }
