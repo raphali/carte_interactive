@@ -30,10 +30,6 @@
             overflow-y:scroll;
         }
 
-        @include mobilePaysage {
-            width: 35vw;
-        }
-
         &__topmenu{
             width: 100%;
             height: 20vh;
@@ -45,11 +41,6 @@
                 position: relative;
                 display: inline-block;
                 margin-right: 10px;
-
-                @include mobilePaysage {
-                    margin-right: 0px;
-                    width: 100%;
-                }
                 
                 #flag {
                     width: 25vw;
@@ -57,10 +48,6 @@
 
                     @include mobile {
                         width: 100vw;
-                    }
-
-                    @include mobilePaysage {
-                        width: 100%;
                     }
                 }
             }
@@ -93,10 +80,6 @@
             color: white;
             z-index: 1000;
 
-            @include mobilePaysage {
-                height: 40vh;
-            }
-
             &__title {
                 padding: 1vw;
                 padding-top: 1rem;
@@ -105,11 +88,6 @@
 
                 @include mobile {
                     width: 90vw;
-                    margin-left: 1rem;
-                }
-
-                @include mobilePaysage {
-                    padding-top: 0rem;
                     margin-left: 1rem;
                 }
             }
@@ -124,11 +102,6 @@
                 padding: 3vh 1.7vw;
                 padding-bottom: 5rem;
                 gap: 2.5rem;
-
-                @include mobilePaysage {
-                    width: 10vw;
-                    align-items: start;
-                }
                 
                 &__card {
                     background-color: $black-background;
@@ -148,11 +121,6 @@
                         margin-right: 0.8rem;
                     }
 
-                    @include mobilePaysage {
-                        width: 29vw;
-                        font-size: 16px;
-                    }
-
                     &__firstline {
                         display: flex;
                         justify-content: space-between;
@@ -164,12 +132,6 @@
                             display: flex;
                             align-items: center;
                             border-radius: 1rem;
-
-                            @include mobilePaysage {
-                                width: 3.2rem;
-                                display: flex;
-                                justify-content: center;
-                            }
                         }
                     }
 
@@ -194,12 +156,6 @@
                     height: 15%;
                 }
 
-                @include mobilePaysage {
-                    bottom: -20rem;
-                    width: 100%;
-                    height: 40%;
-                }
-
                 &__span {
                     display: flex;
                     border: solid 1px #26282E;
@@ -207,10 +163,6 @@
 
                     @include mobile {
                         width: 100vw;
-                    }
-
-                    @include mobilePaysage {
-                        width: 100%;
                     }
                 }
 
@@ -226,12 +178,6 @@
                         width: 90vw;
                         margin-left: 5vw;
                         margin-bottom: 1rem;
-                    }
-
-                    @include mobilePaysage {
-                        width: 90%;
-                        margin-left: 5%;
-                        font-size: 85%;
                     }
 
                     #camp-politique{
@@ -250,11 +196,6 @@
                     @include mobile {
                         margin-left: 5vw;
                         width: 90vw;
-                    }
-
-                    @include mobilePaysage {
-                        width: 90%;
-                        margin-left: 5%;
                     }
 
                     &__echellon {
@@ -294,12 +235,6 @@
                     @include mobile {
                         width: 90vw;
                         margin-left: 5vw;
-                    }
-
-                    @include mobilePaysage {
-                        width: 90%;
-                        margin-left: 5%;
-                        margin-bottom: 1rem;
                     }
                 }
             }

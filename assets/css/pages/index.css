@@ -30,11 +30,6 @@
     overflow-y: scroll;
   }
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger {
-    width: 35vw;
-  }
-}
 .container__menuburger__topmenu {
   width: 100%;
   height: 20vh;
@@ -47,12 +42,6 @@
   display: inline-block;
   margin-right: 10px;
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__topmenu__gradientspan {
-    margin-right: 0px;
-    width: 100%;
-  }
-}
 .container__menuburger__topmenu__gradientspan #flag {
   width: 25vw;
   display: block;
@@ -60,11 +49,6 @@
 @media screen and (max-width: 480px) {
   .container__menuburger__topmenu__gradientspan #flag {
     width: 100vw;
-  }
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__topmenu__gradientspan #flag {
-    width: 100%;
   }
 }
 .container__menuburger__topmenu__gradientspan::after {
@@ -95,11 +79,6 @@
   color: white;
   z-index: 1000;
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__content {
-    height: 40vh;
-  }
-}
 .container__menuburger__content__title {
   padding: 1vw;
   padding-top: 1rem;
@@ -112,12 +91,6 @@
     margin-left: 1rem;
   }
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__title {
-    padding-top: 0rem;
-    margin-left: 1rem;
-  }
-}
 .container__menuburger__content__cardcontainer {
   display: flex;
   flex-direction: column;
@@ -127,12 +100,6 @@
   padding: 3vh 1.7vw;
   padding-bottom: 5rem;
   gap: 2.5rem;
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__cardcontainer {
-    width: 10vw;
-    align-items: start;
-  }
 }
 .container__menuburger__content__cardcontainer__card {
   background-color: #121316;
@@ -153,12 +120,6 @@
     margin-right: 0.8rem;
   }
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__cardcontainer__card {
-    width: 29vw;
-    font-size: 16px;
-  }
-}
 .container__menuburger__content__cardcontainer__card__firstline {
   display: flex;
   justify-content: space-between;
@@ -170,13 +131,6 @@
   display: flex;
   align-items: center;
   border-radius: 1rem;
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__cardcontainer__card__firstline__time {
-    width: 3.2rem;
-    display: flex;
-    justify-content: center;
-  }
 }
 .container__menuburger__content__cardcontainer__card__secondline {
   display: grid;
@@ -196,13 +150,6 @@
     height: 15%;
   }
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__politiscorecontainer {
-    bottom: -20rem;
-    width: 100%;
-    height: 40%;
-  }
-}
 .container__menuburger__content__politiscorecontainer__span {
   display: flex;
   border: solid 1px #26282E;
@@ -211,11 +158,6 @@
 @media screen and (max-width: 480px) {
   .container__menuburger__content__politiscorecontainer__span {
     width: 100vw;
-  }
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__politiscorecontainer__span {
-    width: 100%;
   }
 }
 .container__menuburger__content__politiscorecontainer__title {
@@ -233,13 +175,6 @@
     margin-bottom: 1rem;
   }
 }
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__politiscorecontainer__title {
-    width: 90%;
-    margin-left: 5%;
-    font-size: 85%;
-  }
-}
 .container__menuburger__content__politiscorecontainer__title #camp-politique {
   color: white;
 }
@@ -255,12 +190,6 @@
   .container__menuburger__content__politiscorecontainer__echelle {
     margin-left: 5vw;
     width: 90vw;
-  }
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__politiscorecontainer__echelle {
-    width: 90%;
-    margin-left: 5%;
   }
 }
 .container__menuburger__content__politiscorecontainer__echelle__echellon {
@@ -294,13 +223,6 @@
   .container__menuburger__content__politiscorecontainer__legende {
     width: 90vw;
     margin-left: 5vw;
-  }
-}
-@media screen and (max-height: 414px) {
-  .container__menuburger__content__politiscorecontainer__legende {
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 1rem;
   }
 }
 
